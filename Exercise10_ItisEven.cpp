@@ -1,4 +1,4 @@
-#include <iostream>  // Include input-output stream library
+#include <iostream>  // Include input-output stream 
 #include <string>    // Include string library for returning messages
 using namespace std;
 
@@ -27,5 +27,5 @@ int main() {
     // Output the returned message from the function
     cout << resultMessage << endl;
 
-    return 0;  // End of program
+    return 0;  // End the program successfully 
 }
