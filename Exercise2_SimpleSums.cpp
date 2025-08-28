@@ -14,5 +14,5 @@ int main() {
     // Step 4: Print the result (sum) to the console
     cout << "The sum is: " << sum << endl;
 
-    return 0; // Return 0 to indicate successful execution
+    return 0; //  End the program successfully 
 }
