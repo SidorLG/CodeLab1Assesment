@@ -37,5 +37,6 @@ int main() {
     }
     cout << endl;
 
-    return 0;  // End of program
+    return 0;  // End the program successfully 
 }
+
