@@ -52,5 +52,6 @@ int main() {
         }
     }
 
-    return 0; // Program executed successfully
+    return 0; // End the program successfully 
 }
+
