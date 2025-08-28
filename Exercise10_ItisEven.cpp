@@ -1,18 +1,31 @@
-#include <iostream> // Includes the input/output stream library for using cin and cout
-using namespace std; // Allows use of standard names like cout and cin without 'std::'
+#include <iostream>  // Include input-output stream library
+#include <string>    // Include string library for returning messages
+using namespace std;
 
-// Main function - the entry point of the program
+// Function to check if a number is even or odd
+// Takes an integer parameter and returns a string message
+string checkEvenOdd(int number) {
+    if (number % 2 == 0) {
+        // If remainder is 0 when divided by 2, number is even
+        return "The provided number is even";
+    } else {
+        // Otherwise, number is odd
+        return "The provided number is odd";
+    }
+}
+
 int main() {
-    int userNumber; // Declares an integer variable to store the user's input number
+    int userNumber;  // Variable to store the user's input number
 
-    cout << "Enter a number: "; // Prompts the user to enter a number
-    cin >> userNumber; // Reads the number entered by the user and stores it in userNumber
+    // Ask the user to enter a number
+    cout << "Please enter a number: ";
+    cin >> userNumber;
 
-    // Checks if the number is divisible by 2 (i.e., even)
-    if (userNumber % 2 == 0)
-        cout << userNumber << " is even."; // If divisible by 2, it's even
-    else
-        cout << userNumber << " is odd."; // Otherwise, it's odd
+    // Call the checkEvenOdd function and store the returned message
+    string resultMessage = checkEvenOdd(userNumber);
 
-    return 0; // Return 0 to indicate that the program executed successfully
+    // Output the returned message from the function
+    cout << resultMessage << endl;
+
+    return 0;  // End of program
 }
