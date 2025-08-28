@@ -9,5 +9,6 @@ void hello() {
 int main() {
     hello();   // Call the hello function to print the message
 
-    return 0;  // Indicate successful program termination
+    return 0;  // End the program successfully 
 }
+
