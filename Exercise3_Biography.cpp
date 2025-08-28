@@ -34,5 +34,6 @@ int main() {
              << "Hometown: " << hometown << "\n"
              << "Age: " << age << endl;
     }
-    return 0; // Indicate successful execution
+    return 0; // End the program successfully 
 }
+
