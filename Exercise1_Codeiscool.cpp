@@ -5,4 +5,3 @@ int main() { // Starting point of the program
     cout << "Code is cool" << endl; // Prints a message to the screen and moves to the next line
     return 0; // Signals that the program finished running with success
 }
-
