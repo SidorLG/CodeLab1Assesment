@@ -35,5 +35,6 @@ int main() {
         cout << "The name '" << searchTerm << "' was NOT found in the list." << endl;
     }
 
-    return 0; // End program
+    return 0; // End the program successfully 
 }
+
