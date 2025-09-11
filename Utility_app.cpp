@@ -106,6 +106,10 @@ public:
 int main() {
     VendingMachine vm; // Create a vending machine object
     vm.run();          // Run the vending machine
-    return 0;          // Exit program
+    return 0;          // This indicates that the program finished
+
+
+    
 }
+
 
